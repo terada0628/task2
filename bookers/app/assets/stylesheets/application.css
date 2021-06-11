@@ -20,11 +20,16 @@
   box-sizing:border-box;
 }
 
-main{
+body{
+  background-color:#fff;
+  font-family:verdana,arial,helvetica,sans-serif;
+  font-size:13px;
   margin:33px;
+  line-height:18px;
 }
 
 p,span{
-margin:33px;  
+margin:33px;
+font-size:13px;
 }
 
