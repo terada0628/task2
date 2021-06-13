@@ -34,6 +34,7 @@
 
 <% if @book.errors.any? %>
   <div id="error_explanation">
+    <h3>入力した内容にerrorが<%= @book.errors.count %>件あります</h3>
     <ul>
       <% @book.errors.full_messages.each do |message| %>
         <li class="error_message"><%= message %></li>
@@ -54,6 +55,6 @@
   <%= f.text_area:body %>
  </div>
 
- <%= f.submit "Create Book" %>
+ <%= f.submit " Create Book " %>
 
 <% end %>
